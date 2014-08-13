@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">有班上</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_star">Favorite</string>
+    <string name="action_browser">Show In Browser</string>
+    <string name="title_activity_detail">Job detail</string>
+    <string name="title_activity_favorite">Favorite This Job</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--MainActivity-->
+    <string name="default_cities">北京 上海 广州</string>
+    <string name="job_list_footer_text">No More Jobs</string>
+    <string name="no_network">Access Network Failed</string>
+
+    <!--FavoriteActivity-->
+    <string name="choice_title_head"> </string>
+    <string name="choice_title_end">rows selected</string>
+    <string name="no_favorite_job">The Favorites Is Empty</string>
+
+    <!--DetailActivity-->
+    <string name="option_successful">Operation Succeeded</string>
+
+    <!--JobFragment-->
+    <string name="error_message">Search Failed, Try Later</string>
+
+    <!--Settings-->
+    <string name="pref_key_job_keywords_title">Position Keywords</string>
+    <string name="pref_key_job_keywords_dialog_title">Position Keywords</string>
+    <string name="pref_key_cities_title">Cities</string>
+    <string name="pref_key_cities_dialog_title">Different Cities Separated With Blank. Such as“北京 上海 广州”</string>
+    <string name="pref_key_cities_contact">Contact Author</string>
+    <string name="pref_key_data_source_title">Data Source</string>
+    <string name="pref_key_data_source_summary">拉勾网 哪上班 内推网</string>
+    <string name="pref_key_clear_cache_title">Clear Cache</string>
+    <string name="pref_key_thanks_title">Thanks</string>
+    <string name="pref_key_thanks_summary">The icon of this app is based on aegean18sunset(V2EX)\'s work.</string>
+    <string name="pref_key_version_title">Version</string>
+    <string name="cleared_cache">Cache Cleared</string>
+
+
+</resources>

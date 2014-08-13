@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="pref_key_job_keywords"
+        android:title="@string/pref_key_job_keywords_title"
+        android:dialogTitle="@string/pref_key_job_keywords_dialog_title" />
+
+    <EditTextPreference
+        android:key="pref_key_cities"
+        android:title="@string/pref_key_cities_title"
+        android:dialogTitle="@string/pref_key_cities_dialog_title"/>
+
+    <Preference
+        android:key="pref_key_data_source"
+        android:title="@string/pref_key_data_source_title"
+        android:summary="@string/pref_key_data_source_summary" />
+
+    <Preference
+        android:key="pref_key_clear_cache"
+        android:title="@string/pref_key_clear_cache_title"/>
+
+    <Preference
+        android:key="pref_key_version"
+        android:title="@string/pref_key_version_title"/>
+
+    <Preference
+        android:key="pref_key_contact"
+        android:title="@string/pref_key_cities_contact">
+        <intent
+            android:action="android.intent.action.SENDTO"
+            android:data="mailto:liu37130@163.com"/>
+    </Preference>
+
+    <Preference
+        android:key="pref_key_thanks"
+        android:title="@string/pref_key_thanks_title"
+        android:summary="@string/pref_key_thanks_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.aegeank.com/sketchactive/"/>
+    </Preference>
+</PreferenceScreen>

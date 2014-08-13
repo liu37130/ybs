@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">有班上</string>
+    <string name="action_settings">设置</string>
+    <string name="action_favorites">收藏夹</string>
+    <string name="action_delete">删除</string>
+    <string name="action_star">收藏</string>
+    <string name="action_browser">用浏览器打开</string>
+    <string name="title_activity_detail">工作详情</string>
+    <string name="title_activity_favorite">收藏的工作</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!--MainActivity-->
+    <string name="default_cities">北京 上海 广州</string>
+    <string name="job_list_footer_text">没有更多工作啦</string>
+    <string name="no_network">无法连接网络</string>
+
+    <!--FavoriteActivity-->
+    <string name="choice_title_head">选中</string>
+    <string name="choice_title_end">个</string>
+    <string name="no_favorite_job">还没有喜欢的工作额~</string>
+
+    <!--DetailActivity-->
+    <string name="option_successful">操作成功</string>
+
+    <!--JobFragment-->
+    <string name="error_message">查询异常，可稍候重试</string>
+
+    <!--Settings-->
+    <string name="pref_key_job_keywords_title">关注的职位</string>
+    <string name="pref_key_job_keywords_dialog_title">职位关键字</string>
+    <string name="pref_key_cities_title">关注的城市</string>
+    <string name="pref_key_cities_dialog_title">不同的城市用空格隔开，不支持省份。如“北京 上海 广州”</string>
+    <string name="pref_key_cities_contact">联系作者</string>
+    <string name="pref_key_data_source_title">数据来源</string>
+    <string name="pref_key_data_source_summary">拉勾网 哪上班 内推网</string>
+    <string name="pref_key_clear_cache_title">清除缓存</string>
+    <string name="pref_key_thanks_title">感谢</string>
+    <string name="pref_key_thanks_summary">App图标由aegean18sunset(V2EX)作品修改而来\n在此谢过 ^_^</string>
+    <string name="pref_key_version_title">版本信息</string>
+    <string name="cleared_cache">缓存清除完成</string>
+</resources>

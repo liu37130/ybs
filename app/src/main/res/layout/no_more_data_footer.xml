@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/job_list_footer_padding_top"
+    android:paddingBottom="@dimen/job_list_footer_padding_bottom">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/job_list_footer_text"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/job_list_footer_text_size"/>
+    </RelativeLayout>

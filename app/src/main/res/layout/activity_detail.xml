@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetailActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_progressbar_height"
+        android:layout_alignParentTop="true"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progress="0"
+        android:visibility="visible"/>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/progressbar"
+        android:scrollbarStyle="outsideOverlay"/>
+
+    <ImageButton
+        android:id="@+id/go_forward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/image_btn_margin_right"
+        android:layout_marginLeft="@dimen/image_btn_margin_left"
+        android:layout_marginBottom="@dimen/image_btn_margin_bottom"
+        android:src="@drawable/ic_action_forward"/>
+
+    <ImageButton
+        android:id="@+id/go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/go_forward"
+        android:layout_marginBottom="@dimen/image_btn_margin_bottom"
+        android:src="@drawable/ic_action_back"/>
+
+</RelativeLayout>

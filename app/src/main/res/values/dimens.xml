@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="image_btn_margin_right">5dp</dimen>
+    <dimen name="image_btn_margin_left">2dp</dimen>
+    <dimen name="image_btn_margin_bottom">30dp</dimen>
+
+    <!-- DetailActivity -->
+    <dimen name="detail_progressbar_height">10dp</dimen>
+
+    <!-- MainActivity -->
+    <dimen name="drawer_width">130dp</dimen>
+    <dimen name="drawer_item_padding_bottom">10dp</dimen>
+    <dimen name="drawer_item_padding_top">10dp</dimen>
+    <dimen name="drawer_item_text_size">17sp</dimen>
+
+    <dimen name="swipe_refresh_padding_top">3dp</dimen>
+
+    <dimen name="job_list_item_padding_left">15dp</dimen>
+    <dimen name="job_list_item_padding_right">15dp</dimen>
+    <dimen name="job_list_item_padding_top">10dp</dimen>
+    <dimen name="job_list_item_padding_bottom">10dp</dimen>
+    <dimen name="job_list_footer_text_size">15sp</dimen>
+    <dimen name="job_list_footer_padding_top">15dp</dimen>
+    <dimen name="job_list_footer_padding_bottom">15dp</dimen>
+
+    <dimen name="avatar_width">60dp</dimen>
+    <dimen name="avatar_height">60dp</dimen>
+
+    <!-- FavoriteActivity -->
+    <dimen name="empty_message_text_size">20dp</dimen>
+    <dimen name="empty_message_height">100dp</dimen>
+
+
+
+    <!--Other-->
+
+
+</resources>

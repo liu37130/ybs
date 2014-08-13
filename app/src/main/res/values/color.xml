@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ybs_green">#1abc9c</color>
+    <color name="ybs_transparent_green">#501abc9c</color>
+    <color name="ybs_white">#fff</color>
+    <color name="ybs_text_gray">#777</color>
+    <color name="ybs_title_gray">#666</color>
+</resources>

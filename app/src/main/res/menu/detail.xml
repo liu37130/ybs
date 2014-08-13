@@ -1,0 +1,24 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xysy.ybs.ui.DetailActivity" >
+
+    <item
+        android:id="@+id/action_star"
+        android:title="@string/action_star"
+        android:icon="@drawable/ic_action_not_star"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_favorites"
+        android:title="@string/action_favorites"
+        android:orderInCategory="200"
+        android:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_browser"
+        android:title="@string/action_browser"
+        android:orderInCategory="300"
+        android:showAsAction="never"/>
+</menu>
