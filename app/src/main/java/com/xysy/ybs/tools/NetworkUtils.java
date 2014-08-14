@@ -13,7 +13,9 @@ public class NetworkUtils {
         NetworkInfo networkInfo = connMgr.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
         boolean isWifiConn = networkInfo.isConnected();
         networkInfo = connMgr.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-        boolean isMobileConn = networkInfo.isConnected();
+        boolean isMobileConn = false;
+        if(networkInfo != null)
+        	isMobileConn = networkInfo.isConnected();
 
         return isWifiConn || isMobileConn;
     }
